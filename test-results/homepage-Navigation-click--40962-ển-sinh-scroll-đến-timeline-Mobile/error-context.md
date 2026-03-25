@@ -1,0 +1,377 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Logo Trường CĐ nghề VN-HQ Cà Mau Trường Cao đẳng nghề Việt Nam – Hàn Quốc Cà Mau" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - img "Logo Trường CĐ nghề VN-HQ Cà Mau" [ref=e5]
+        - generic [ref=e6]:
+          - text: Trường Cao đẳng nghề
+          - strong [ref=e7]: Việt Nam – Hàn Quốc Cà Mau
+      - button "Menu" [ref=e8] [cursor=pointer]: ☰
+  - generic [ref=e10]:
+    - heading "THÔNG BÁO TUYỂN SINH" [level=1] [ref=e11]
+    - paragraph [ref=e12]: Trình độ Trung cấp & Trình độ Cao đẳng
+    - generic [ref=e13]: NĂM 2026
+  - generic [ref=e15]:
+    - heading "Thông Tin Tuyển Sinh Chung" [level=2] [ref=e16]
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - heading "🎓 Đối tượng và hình thức tuyển sinh" [level=3] [ref=e19]:
+          - generic [ref=e20]: 🎓
+          - text: Đối tượng và hình thức tuyển sinh
+        - paragraph [ref=e21]: "Trình độ Cao đẳng:"
+        - list [ref=e22]:
+          - listitem [ref=e23]:
+            - strong [ref=e24]: "Đối tượng:"
+            - text: Tốt nghiệp THPT hoặc tương đương.
+          - listitem [ref=e25]:
+            - strong [ref=e26]: "Hình thức:"
+            - text: Xét học bạ THPT.
+        - paragraph [ref=e27]: "Trình độ Trung cấp:"
+        - list [ref=e28]:
+          - listitem [ref=e29]:
+            - strong [ref=e30]: "Đối tượng:"
+            - text: Tốt nghiệp THCS hoặc tương đương trở lên.
+          - listitem [ref=e31]:
+            - strong [ref=e32]: "Hình thức:"
+            - text: Xét học bạ THCS.
+      - generic [ref=e33]:
+        - heading "📁 Hồ sơ dự tuyển" [level=3] [ref=e34]:
+          - generic [ref=e35]: 📁
+          - text: Hồ sơ dự tuyển
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - text: Phiếu đăng ký dự tuyển (theo mẫu).
+            - link "⬇️" [ref=e38] [cursor=pointer]:
+              - /url: https://camauvkc.edu.vn/mauhoso
+          - listitem [ref=e39]:
+            - text: Sơ yếu lý lịch (theo mẫu).
+            - link "⬇️" [ref=e40] [cursor=pointer]:
+              - /url: https://camauvkc.edu.vn/mauhoso
+          - listitem [ref=e41]: Bản sao Căn cước (CCCD).
+          - listitem [ref=e42]: Bản sao bằng cấp và học bạ.
+          - listitem [ref=e43]: Giấy chứng nhận ưu tiên (nếu có).
+        - paragraph [ref=e44]:
+          - strong [ref=e45]:
+            - emphasis [ref=e46]: "Lưu ý:"
+          - emphasis [ref=e47]: Những hồ sơ bản sao, thí sinh mang bản chính theo để đối chiếu.
+      - generic [ref=e48]:
+        - heading "📤 Hình thức nộp hồ sơ" [level=3] [ref=e49]:
+          - generic [ref=e50]: 📤
+          - text: Hình thức nộp hồ sơ
+        - list [ref=e51]:
+          - listitem [ref=e52]:
+            - strong [ref=e53]: "Trực tiếp:"
+            - text: Nộp bản cứng tại Trường.
+          - listitem [ref=e54]:
+            - strong [ref=e55]: "Trực tuyến:"
+            - text: Điền thông tin đăng ký và gửi bản mềm hồ sơ kèm theo.
+          - listitem [ref=e56]:
+            - strong [ref=e57]: "Cao đẳng (thêm):"
+            - text: "Qua cổng tuyển sinh Bộ GD&ĐT:"
+            - link "https://thisinh.thitotnghiepthpt.edu.vn" [ref=e58] [cursor=pointer]:
+              - /url: https://thisinh.thitotnghiepthpt.edu.vn/
+  - generic [ref=e60]:
+    - heading "Điều Kiện & Phương Thức Xét Tuyển" [level=2] [ref=e61]
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - heading "📌 Điều kiện xét tuyển" [level=3] [ref=e64]
+        - list [ref=e65]:
+          - listitem [ref=e66]:
+            - text: Điểm trung bình cả năm của các môn trong tổ hợp xét tuyển
+            - strong [ref=e67]: từ 3,5 điểm trở lên
+            - text: (thang điểm 10).
+          - listitem [ref=e68]: Nộp đầy đủ hồ sơ dự tuyển đúng thời hạn.
+          - listitem [ref=e69]:
+            - text: "Nộp lệ phí xét tuyển đầy đủ (Lệ phí xét tuyển:"
+            - strong [ref=e70]: 30.000 đồng/thí sinh
+            - text: ).
+      - generic [ref=e71]:
+        - heading "📐 Công thức tính điểm xét tuyển" [level=3] [ref=e72]
+        - generic [ref=e73]:
+          - strong [ref=e74]: ĐXT = Điểm môn 1 + Điểm môn 2 + Điểm môn 3 + Đ.ƯT (nếu có)
+          - paragraph [ref=e75]: Thang điểm 30, lấy đến 02 chữ số thập phân.
+      - generic [ref=e76]:
+        - heading "📚 Tổ hợp xét tuyển Trung cấp" [level=3] [ref=e77]
+        - paragraph [ref=e78]:
+          - strong [ref=e79]: Toán + Ngữ văn + Ngoại ngữ
+          - text: (điểm TB cả năm lớp 9).
+        - paragraph [ref=e80]: "Nếu không có môn Ngoại ngữ: thay bằng KHTN hoặc điểm cao nhất của Lý/Hóa/Sinh."
+      - generic [ref=e81]:
+        - heading "📚 Tổ hợp xét tuyển Cao đẳng" [level=3] [ref=e82]
+        - paragraph [ref=e83]:
+          - strong [ref=e84]: Toán + Ngữ văn + Ngoại ngữ
+          - text: (điểm TB cả năm lớp 12).
+      - generic [ref=e85]:
+        - heading "🏆 Phương thức xét tuyển" [level=3] [ref=e86]
+        - list [ref=e87]:
+          - listitem [ref=e88]: Xét đối tượng được tuyển thẳng.
+          - listitem [ref=e89]: Xét theo ĐXT của từng ngành nghề theo trình độ, ĐXT được xét từ cao xuống thấp cho đến khi đủ chỉ tiêu.
+  - generic [ref=e91]:
+    - heading "Lịch Tuyển Sinh & Nhập Học" [level=2] [ref=e92]
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - heading "🔵 Đợt 1 – Trình độ Trung cấp" [level=3] [ref=e95]
+        - generic [ref=e98]:
+          - generic [ref=e99]: Trước 15/6/2026
+          - generic [ref=e100]: Nộp hồ sơ
+        - generic [ref=e103]:
+          - generic [ref=e104]: 30/6/2026
+          - generic [ref=e105]: Xét tuyển
+        - generic [ref=e108]:
+          - generic [ref=e109]: Từ 01/7/2026
+          - generic [ref=e110]: Thủ tục nhập học
+      - generic [ref=e111]:
+        - heading "🟢 Đợt 2 – Trình độ Cao đẳng" [level=3] [ref=e112]
+        - generic [ref=e115]:
+          - generic [ref=e116]: Trước 31/7/2026
+          - generic [ref=e117]: Nộp hồ sơ
+        - generic [ref=e120]:
+          - generic [ref=e121]: 14/8/2026
+          - generic [ref=e122]: Xét tuyển
+        - generic [ref=e125]:
+          - generic [ref=e126]: Từ 20/8/2026
+          - generic [ref=e127]: Thủ tục nhập học
+    - paragraph [ref=e128]:
+      - text: "📅 Thời gian bắt đầu khóa học:"
+      - strong [ref=e129]: 07/9/2026
+  - generic [ref=e131]:
+    - generic [ref=e133]: 🎓 TRÌNH ĐỘ CAO ĐẲNG
+    - generic [ref=e134]:
+      - generic [ref=e135]:
+        - generic [ref=e136]: Đối tượng
+        - generic [ref=e137]: Tốt nghiệp THPT hoặc tương đương
+      - generic [ref=e138]:
+        - generic [ref=e139]: Hình thức
+        - generic [ref=e140]: Xét học bạ THPT
+      - generic [ref=e141]:
+        - generic [ref=e142]: Thời gian đào tạo
+        - generic [ref=e143]: 2,5 năm (25 tháng)
+      - generic [ref=e144]:
+        - generic [ref=e145]: Tổng chỉ tiêu
+        - generic [ref=e146]: 340 sinh viên
+    - generic [ref=e147]:
+      - generic [ref=e148]:
+        - img "Chế biến và bảo quản thủy sản" [ref=e150]
+        - generic [ref=e151]:
+          - generic [ref=e152]: Chế biến và bảo quản thủy sản
+          - generic [ref=e153]: "Mã ngành: 6620302"
+          - generic [ref=e154]: ⭐ Giảm 70% học phí
+          - paragraph [ref=e155]: Ngành nghề thực hiện các công việc thu mua, chế biến lạnh đông, Surimi, chả, đồ hộp, khô, bột cá, nước mắm và kiểm tra chất lượng sản phẩm thủy sản, đáp ứng nhu cầu bậc 5 Khung TĐQG Việt Nam.
+          - generic [ref=e156]:
+            - text: "Chỉ tiêu:"
+            - strong [ref=e157]: "60"
+          - link "📄 Xem chi tiết" [ref=e158] [cursor=pointer]:
+            - /url: details/cd-che-bien-thuy-san.html
+      - generic [ref=e159]:
+        - img "Công nghệ ô tô" [ref=e161]
+        - generic [ref=e162]:
+          - generic [ref=e163]: Công nghệ ô tô
+          - generic [ref=e164]: "Mã ngành: 6510216"
+          - generic [ref=e165]: ⭐ Giảm 70% học phí
+          - paragraph [ref=e166]: Chương trình trang bị kiến thức lý thuyết và thực hành từ cơ bản đến chuyên sâu để bảo dưỡng, sửa chữa các hệ thống trên ô tô, đặc biệt là các hệ thống hiện đại giúp an toàn, thoải mái.
+          - generic [ref=e167]:
+            - text: "Chỉ tiêu:"
+            - strong [ref=e168]: "70"
+          - link "📄 Xem chi tiết" [ref=e169] [cursor=pointer]:
+            - /url: details/cd-cong-nghe-o-to.html
+      - generic [ref=e170]:
+        - img "Cơ điện tử" [ref=e172]
+        - generic [ref=e173]:
+          - generic [ref=e174]: Cơ điện tử
+          - generic [ref=e175]: "Mã ngành: 6520263"
+          - paragraph [ref=e176]: Ngành nghề thiết kế, lắp ráp, kết nối, bảo trì sản phẩm cơ điện tử và hệ thống tự động hóa. Làm việc tại nhà máy chế tạo, dây chuyền sản xuất tự động, doanh nghiệp cung cấp thiết bị.
+          - generic [ref=e177]:
+            - text: "Chỉ tiêu:"
+            - strong [ref=e178]: "35"
+          - link "📄 Xem chi tiết" [ref=e179] [cursor=pointer]:
+            - /url: details/cd-co-dien-tu.html
+      - generic [ref=e180]:
+        - img "Công nghệ thông tin" [ref=e182]
+        - generic [ref=e183]:
+          - generic [ref=e184]: Công nghệ thông tin (Ứng dụng phần mềm)
+          - generic [ref=e185]: "Mã ngành: 6480202"
+          - paragraph [ref=e186]: Ứng dụng phần mềm để khai thác, xử lý hệ thống CNTT, tạo sản phẩm kỹ thuật số, đa phương tiện. Tiếp cận công nghệ AI, chatbot, AppSheet đáp ứng chuyển đổi số.
+          - generic [ref=e187]:
+            - text: "Chỉ tiêu:"
+            - strong [ref=e188]: "35"
+          - link "📄 Xem chi tiết" [ref=e189] [cursor=pointer]:
+            - /url: details/cd-cntt.html
+      - generic [ref=e190]:
+        - img "Điện công nghiệp" [ref=e192]
+        - generic [ref=e193]:
+          - generic [ref=e194]: Điện công nghiệp
+          - generic [ref=e195]: "Mã ngành: 6520227"
+          - generic [ref=e196]: ⭐ Giảm 70% học phí
+          - paragraph [ref=e197]: Chuyên thiết kế, lắp đặt, bảo dưỡng và sửa chữa hệ thống điện công nghiệp. Người học vận hành tủ điện, máy điện, dây chuyền sản xuất tại nhà máy, xí nghiệp, tòa nhà.
+          - generic [ref=e198]:
+            - text: "Chỉ tiêu:"
+            - strong [ref=e199]: "35"
+          - link "📄 Xem chi tiết" [ref=e200] [cursor=pointer]:
+            - /url: details/cd-dien-cong-nghiep.html
+      - generic [ref=e201]:
+        - img "Kỹ thuật máy lạnh và điều hòa không khí" [ref=e203]
+        - generic [ref=e204]:
+          - generic [ref=e205]: Kỹ thuật máy lạnh và điều hòa không khí
+          - generic [ref=e206]: "Mã ngành: 6520205"
+          - generic [ref=e207]: ⭐ Giảm 70% học phí
+          - paragraph [ref=e208]: Lắp đặt, vận hành, bảo trì, sửa chữa hệ thống máy lạnh và điều hòa không khí (kho lạnh, máy kem, máy đá, tủ lạnh, điều hòa trung tâm, cục bộ...) đạt chuẩn kỹ thuật.
+          - generic [ref=e209]:
+            - text: "Chỉ tiêu:"
+            - strong [ref=e210]: "70"
+          - link "📄 Xem chi tiết" [ref=e211] [cursor=pointer]:
+            - /url: details/cd-ky-thuat-may-lanh.html
+      - generic [ref=e212]:
+        - img "Vận hành, sửa chữa thiết bị lạnh" [ref=e214]
+        - generic [ref=e215]:
+          - generic [ref=e216]: Vận hành, sửa chữa thiết bị lạnh
+          - generic [ref=e217]: "Mã ngành: 6520255"
+          - paragraph [ref=e218]: Chuyên vận hành, bảo dưỡng, sửa chữa thiết bị lạnh tại nhà máy chế biến, bia, sữa, siêu thị, nhà hàng, resort. Tiếp cận công nghệ xanh và kỹ thuật hiện đại.
+          - generic [ref=e219]:
+            - text: "Chỉ tiêu:"
+            - strong [ref=e220]: "35"
+          - link "📄 Xem chi tiết" [ref=e221] [cursor=pointer]:
+            - /url: details/cd-van-hanh-thiet-bi-lanh.html
+  - generic [ref=e223]:
+    - generic [ref=e225]: 🎓 TRÌNH ĐỘ TRUNG CẤP
+    - generic [ref=e226]:
+      - generic [ref=e227]:
+        - generic [ref=e228]: Đối tượng
+        - generic [ref=e229]: Tốt nghiệp THCS hoặc tương đương
+      - generic [ref=e230]:
+        - generic [ref=e231]: Hình thức
+        - generic [ref=e232]: Xét học bạ THCS
+      - generic [ref=e233]:
+        - generic [ref=e234]: Thời gian đào tạo
+        - generic [ref=e235]: 2 năm (20 tháng)
+      - generic [ref=e236]:
+        - generic [ref=e237]: Tổng chỉ tiêu
+        - generic [ref=e238]: 175 học sinh
+    - generic [ref=e239]:
+      - generic [ref=e240]:
+        - img "Chế biến và bảo quản thủy sản" [ref=e242]
+        - generic [ref=e243]:
+          - generic [ref=e244]: Chế biến và bảo quản thủy sản
+          - generic [ref=e245]: "Mã ngành: 5620302"
+          - generic [ref=e246]: 🎉 Miễn học phí
+          - paragraph [ref=e247]: Đào tạo thực hiện thu mua nguyên liệu, chế biến lạnh đông, Surimi, chả, đồ hộp, khô, bột cá, nước mắm, mắm các loại và kiểm tra chất lượng sản phẩm thủy sản.
+          - generic [ref=e248]:
+            - text: "Chỉ tiêu:"
+            - strong [ref=e249]: "35"
+          - link "📄 Xem chi tiết" [ref=e250] [cursor=pointer]:
+            - /url: details/tc-che-bien-thuy-san.html
+      - generic [ref=e251]:
+        - img "Công nghệ thông tin" [ref=e253]
+        - generic [ref=e254]:
+          - generic [ref=e255]: Công nghệ thông tin (Ứng dụng phần mềm)
+          - generic [ref=e256]: "Mã ngành: 5480202"
+          - generic [ref=e257]: 🎉 Miễn học phí
+          - paragraph [ref=e258]: Ứng dụng phần mềm tin học để khai thác, xử lý trên hệ thống CNTT, tạo sản phẩm kỹ thuật số, cơ sở dữ liệu. Tiếp cận AI, chatbot, AppSheet đáp ứng chuyển đổi số.
+          - generic [ref=e259]:
+            - text: "Chỉ tiêu:"
+            - strong [ref=e260]: "35"
+          - link "📄 Xem chi tiết" [ref=e261] [cursor=pointer]:
+            - /url: details/tc-cntt.html
+      - generic [ref=e262]:
+        - img "Điện công nghiệp" [ref=e264]
+        - generic [ref=e265]:
+          - generic [ref=e266]: Điện công nghiệp
+          - generic [ref=e267]: "Mã ngành: 5520227"
+          - generic [ref=e268]: 🎉 Miễn học phí
+          - paragraph [ref=e269]: Thiết kế, lắp đặt, kiểm tra, bảo dưỡng và sửa chữa hệ thống điện và thiết bị điện công nghiệp đảm bảo an toàn, đạt yêu cầu bậc 4 Khung TĐQG Việt Nam.
+          - generic [ref=e270]:
+            - text: "Chỉ tiêu:"
+            - strong [ref=e271]: "35"
+          - link "📄 Xem chi tiết" [ref=e272] [cursor=pointer]:
+            - /url: details/tc-dien-cong-nghiep.html
+      - generic [ref=e273]:
+        - img "Kỹ thuật máy lạnh" [ref=e275]
+        - generic [ref=e276]:
+          - generic [ref=e277]: Kỹ thuật máy lạnh và điều hòa không khí
+          - generic [ref=e278]: "Mã ngành: 5520205"
+          - generic [ref=e279]: 🎉 Miễn học phí
+          - paragraph [ref=e280]: Chương trình trang bị kiến thức và năng lực tối thiểu về kỹ thuật máy lạnh và điều hòa không khí, tạo nền tảng phát triển lên trình độ cao hơn.
+          - generic [ref=e281]:
+            - text: "Chỉ tiêu:"
+            - strong [ref=e282]: "35"
+          - link "📄 Xem chi tiết" [ref=e283] [cursor=pointer]:
+            - /url: details/tc-ky-thuat-may-lanh.html
+      - generic [ref=e284]:
+        - img "Vận hành, sửa chữa thiết bị lạnh" [ref=e286]
+        - generic [ref=e287]:
+          - generic [ref=e288]: Vận hành, sửa chữa thiết bị lạnh
+          - generic [ref=e289]: "Mã ngành: 5520255"
+          - generic [ref=e290]: 🎉 Miễn học phí
+          - paragraph [ref=e291]: Chuyên vận hành, bảo dưỡng, sửa chữa thiết bị lạnh tại nhà máy chế biến, bia, dược, sữa, siêu thị, nhà hàng, cao ốc, resort và các đơn vị thi công lắp đặt.
+          - generic [ref=e292]:
+            - text: "Chỉ tiêu:"
+            - strong [ref=e293]: "35"
+          - link "📄 Xem chi tiết" [ref=e294] [cursor=pointer]:
+            - /url: details/tc-van-hanh-thiet-bi-lanh.html
+  - generic [ref=e296]:
+    - heading "Quyền Lợi Khi Học Tại Trường" [level=2] [ref=e297]
+    - generic [ref=e298]:
+      - generic [ref=e299]:
+        - generic [ref=e300]: 🏅
+        - heading "Bằng chính quy" [level=4] [ref=e301]
+        - paragraph [ref=e302]: Được cấp bằng chính quy, thực hành trên thiết bị hiện đại đạt chuẩn.
+      - generic [ref=e303]:
+        - generic [ref=e304]: 📈
+        - heading "Liên thông" [level=4] [ref=e305]
+        - paragraph [ref=e306]: Được tạo điều kiện học liên thông lên trình độ cao hơn.
+      - generic [ref=e307]:
+        - generic [ref=e308]: 🏠
+        - heading "Nội trú & Học bổng" [level=4] [ref=e309]
+        - paragraph [ref=e310]: Được xét hưởng chính sách nội trú, thi đua khen thưởng và học bổng theo quy định.
+      - generic [ref=e311]:
+        - generic [ref=e312]: 🏦
+        - heading "Vay vốn" [level=4] [ref=e313]
+        - paragraph [ref=e314]: Được xác nhận để vay vốn học tập tại Ngân hàng chính sách xã hội.
+      - generic [ref=e315]:
+        - generic [ref=e316]: 💼
+        - heading "Việc làm" [level=4] [ref=e317]
+        - paragraph [ref=e318]: Được tư vấn, giới thiệu việc làm tại doanh nghiệp trong, ngoài tỉnh hoặc đi làm việc có thời hạn ở nước ngoài.
+  - generic [ref=e320]:
+    - heading "Thông Tin Liên Hệ" [level=2] [ref=e321]
+    - generic [ref=e322]:
+      - generic [ref=e323]:
+        - generic [ref=e324]: 📞
+        - generic [ref=e325]:
+          - generic [ref=e326]: Điện thoại
+          - generic [ref=e327]: 02903.592.101 - 02903.592.102
+      - generic [ref=e328]:
+        - generic [ref=e329]: ✉️
+        - generic [ref=e330]:
+          - generic [ref=e331]: Email
+          - link "tuyensinh@camauvkc.edu.vn" [ref=e333] [cursor=pointer]:
+            - /url: mailto:tuyensinh@camauvkc.edu.vn
+      - generic [ref=e334]:
+        - generic [ref=e335]: 📍
+        - generic [ref=e336]:
+          - generic [ref=e337]: Địa chỉ
+          - generic [ref=e338]: Số 08, đường Mậu Thân, Phường An Xuyên, tỉnh Cà Mau
+      - generic [ref=e339]:
+        - generic [ref=e340]: 🌐
+        - generic [ref=e341]:
+          - generic [ref=e342]: Kênh trực tuyến
+          - generic [ref=e343]:
+            - link "Website" [ref=e344] [cursor=pointer]:
+              - /url: http://camauvkc.edu.vn
+            - text: •
+            - link "Fanpage" [ref=e345] [cursor=pointer]:
+              - /url: https://facebook.com/camauvkc
+            - text: •
+            - link "Zalo" [ref=e346] [cursor=pointer]:
+              - /url: https://zalo.me/camauvkc
+  - contentinfo [ref=e347]:
+    - paragraph [ref=e348]: © 2026 Trường Cao đẳng nghề Việt Nam – Hàn Quốc Cà Mau. Ban thư ký Hội đồng tuyển sinh.
+    - paragraph [ref=e349]:
+      - link "Xem Quy chế tuyển sinh" [ref=e350] [cursor=pointer]:
+        - /url: https://camauvkc.edu.vn/qctuyensinh
+  - link "✍️" [ref=e351] [cursor=pointer]:
+    - /url: https://camauvkc.edu.vn/dangkyxettuyen
+    - generic [ref=e352]: ✍️
+```

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ngành nghề: Vận hành, sửa chữa thiết bị lạnh - Trình độ Cao đẳng | Trường CĐ nghề VN-HQ Cà Mau</title>
+  <meta name="description"
+    content="Thông tin chi tiết ngành Ngành, nghề: Vận hành, sửa chữa thiết bị lạnh trình độ Cao đẳng tại Trường Cao đẳng nghề Việt Nam – Hàn Quốc Cà Mau.">
+  <link rel="icon" href="../assets/images/Logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@500;700;800;900&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0f4c81;
+      --primary-light: #1a6fb5;
+      --accent: #f7a325;
+      --bg-body: #f0f4f8;
+      --bg-card: #ffffff;
+      --text-primary: #1a1a2e;
+      --text-secondary: #555e6d;
+      --border-radius: 16px;
+      --shadow-card: 0 4px 20px rgba(15, 76, 129, 0.1);
+      --font-heading: 'Roboto', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-body);
+      color: var(--text-primary);
+      line-height: 1.7;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .detail-header {
+      background: linear-gradient(135deg, #0f4c81 0%, #1a6fb5 100%);
+      color: #fff;
+      padding: 24px 20px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .detail-header img {
+      height: 48px;
+      width: 48px;
+      border-radius: 50%;
+      background: #fff;
+      padding: 3px;
+      object-fit: contain;
+    }
+
+    .detail-header .back-btn {
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 0.9rem;
+      padding: 8px 18px;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-radius: 50px;
+      margin-left: auto;
+      transition: all 0.3s ease;
+    }
+
+    .detail-header .back-btn:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: #fff;
+    }
+
+    .detail-header .header-title {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+
+    .detail-header .header-title small {
+      display: block;
+      font-weight: 400;
+      font-size: 0.78rem;
+      opacity: 0.85;
+    }
+
+    .detail-container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+
+    .level-tag {
+      display: inline-block;
+      background: #0f4c81;
+      color: #fff;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 4px 14px;
+      border-radius: 50px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .detail-h1 {
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin: 32px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 3px solid var(--primary);
+    }
+
+    .detail-h1:first-of-type {
+      font-size: 1.7rem;
+      margin-top: 0;
+    }
+
+    .detail-h2 {
+      font-family: var(--font-heading);
+      font-size: 1.1rem;
+      color: var(--primary-light);
+      margin: 20px 0 8px;
+    }
+
+    .detail-h3 {
+      font-size: 1rem;
+      color: var(--text-primary);
+      margin: 16px 0 6px;
+      font-weight: 600;
+    }
+
+    .detail-p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 10px;
+      line-height: 1.75;
+      text-align: justify;
+    }
+
+    .fab-register {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, var(--accent), #d48a10);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.88rem;
+      padding: 14px 24px;
+      border-radius: 60px;
+      box-shadow: 0 6px 24px rgba(247, 163, 37, 0.45);
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+    }
+
+    .fab-register:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 36px rgba(247, 163, 37, 0.55);
+    }
+
+    .detail-footer {
+      text-align: center;
+      padding: 20px;
+      background: #0a3558;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.82rem;
+    }
+
+    @media (max-width: 600px) {
+      .detail-h1 {
+        font-size: 1.2rem;
+      }
+
+      .detail-header .header-title {
+        font-size: 0.82rem;
+      }
+
+      .fab-register span:not(.fab-icon) {
+        display: none;
+      }
+
+      .fab-register {
+        padding: 14px;
+        border-radius: 50%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="detail-header">
+    <img src="../assets/images/Logo.png" alt="Logo">
+    <div class="header-title">
+      Trường CĐ nghề Việt Nam – Hàn Quốc Cà Mau
+      <small>Thông tin chi tiết ngành đào tạo</small>
+    </div>
+    <a href="../index.html" class="back-btn">← Quay lại</a>
+  </header>
+
+  <div class="detail-container">
+    <span class="level-tag">Trình độ Cao đẳng</span>
+    <h2 class="detail-h1">Ngành, nghề: Vận hành, sửa chữa thiết bị lạnh</h2>
+    <h3 class="detail-h2">Mã ngành, nghề: 6520255</h3>
+    <h3 class="detail-h2">Trình độ đào tạo: Cao đẳng</h3>
+    <h3 class="detail-h2">Đối tượng tuyển sinh:</h3>
+    <p class="detail-p">Học sinh đã tốt nghiệp trung học phổ thông hoặc tương đương.</p>
+    <p class="detail-p">Người có bằng tốt nghiệp trình độ trung cấp và có bằng tốt nghiệp trung học phổ thông hoặc đã
+      học và thi đạt yêu cầu môn văn hóa trung học phổ thông theo quy định.</p>
+    <h3 class="detail-h2">Thời gian khóa học: 2,5 năm học (25 tháng).</h3>
+    <h2 class="detail-h1">1. Giới thiệu chương trình đào tạo:</h2>
+    <p class="detail-p">Vận hành, sửa chữa thiết bị lạnh trình độ cao đẳng là ngành, nghề chuyên về vận hành, bảo dưỡng,
+      sửa chữa các thiết bị lạnh tại các cơ sở sản xuất, kinh doanh có sử dụng thiết bị lạnh (như nhà máy chế biến, nhà
+      máy bia, nhà máy sữa, dược, siêu thị, nhà hàng, cao ốc, resort...) cũng như các đơn vị thi công lắp đặt, cơ sở
+      kinh doanh, dịch vụ, tư vấn thiết bị lạnh. Ngành nghề này đáp ứng yêu cầu bậc 5 trong Khung trình độ quốc gia Việt
+      Nam.</p>
+    <p class="detail-p">Môi trường làm việc của người lao động đòi hỏi làm việc với cường độ cao, nhiệt độ thường xuyên
+      thay đổi, độ ồn, có tiếp xúc với thiết bị áp lực, thiết bị điện và môi chất lạnh. Để hành nghề, người học cần có
+      sức khỏe tốt, tinh thần hợp tác làm việc nhóm, có kỹ năng chuyên môn, ngoại ngữ, tin học và cần thường xuyên tự
+      học tập để tiếp cận các công nghệ mới, công nghệ xanh.</p>
+    <h2 class="detail-h1">2. Mục tiêu đào tạo</h2>
+    <h3 class="detail-h2">2.1. Mục tiêu chung:</h3>
+    <p class="detail-p">Đào tạo nhân lực trực tiếp cho sản xuất, kinh doanh và dịch vụ, có năng lực hành nghề Vận hành
+      sửa chữa thiết bị lạnh, có đạo đức, sức khỏe, và trách nhiệm nghề nghiệp. Chương trình hướng tới việc đào tạo
+      người học có khả năng sáng tạo, thích ứng với môi trường làm việc hội nhập quốc tế; tạo điều kiện để người học tự
+      tìm việc, tự tạo việc làm hoặc học lên các trình độ cao hơn.</p>
+    <h3 class="detail-h2">2.2. Mục tiêu cụ thể:</h3>
+    <p class="detail-p">Về kiến thức: Đọc hiểu và phân tích được bản vẽ kỹ thuật, sơ đồ thiết bị và nguyên lý hoạt động
+      của hệ thống lạnh cùng các thiết bị đo, kiểm tra. Nắm vững quy trình vận hành, bảo dưỡng, sửa chữa thiết bị lạnh
+      công nghiệp và dân dụng; nhận biết được hiện tượng, nguyên nhân hư hỏng và phương pháp khắc phục. Biết phương pháp
+      tính toán cân bằng nhiệt, năng suất lạnh; trình bày được các biện pháp an toàn cháy nổ, sơ cứu tai nạn, các yêu
+      cầu xanh hóa nghề và quản lý, tổ chức sản xuất.</p>
+    <p class="detail-p">Về kỹ năng: Vận hành thành thạo, tối ưu hóa được các thiết bị trong hệ thống lạnh; bảo dưỡng hệ
+      thống theo đúng quy trình an toàn. Xác định đúng nguyên nhân và tiến hành sửa chữa các hư hỏng; tính toán, lựa
+      chọn thiết bị thay thế hợp lý. Tổ chức sản xuất, quản lý điều hành hoạt động của nhóm; đề xuất các giải pháp hạn
+      chế chất thải gây hại môi trường. Sử dụng an toàn dụng cụ đồ nghề, sơ cứu tai nạn; ứng dụng tốt tin học cơ bản và
+      ngoại ngữ đạt bậc 2/6 trong công việc.</p>
+    <p class="detail-p">Về mức độ tự chủ và trách nhiệm: Tuân thủ nội quy lao động, quy định an toàn và phòng cháy chữa
+      cháy. Có khả năng làm việc độc lập hoặc theo nhóm để giải quyết vấn đề phức tạp; biết hướng dẫn, giám sát người
+      khác. Quan tâm chăm sóc khách hàng, đồng nghiệp; chịu trách nhiệm đánh giá chất lượng công việc của bản thân và
+      nhóm trước lãnh đạo.</p>
+    <h2 class="detail-h1">3. Vị trí việc làm sau khi tốt nghiệp:</h2>
+    <p class="detail-p">Sau khi tốt nghiệp, sinh viên có năng lực làm việc tại các vị trí bao gồm:</p>
+    <p class="detail-p">Vận hành hệ thống lạnh công nghiệp.</p>
+    <p class="detail-p">Vận hành hệ thống máy lạnh dân dụng.</p>
+    <p class="detail-p">Bảo dưỡng hệ thống lạnh công nghiệp; bảo dưỡng hệ thống máy lạnh dân dụng; sửa chữa hệ thống
+      lạnh công nghiệp.</p>
+    <p class="detail-p">Sửa chữa hệ thống máy lạnh dân dụng.</p>
+    <p class="detail-p">Kinh doanh, dịch vụ vật tư - thiết bị lạnh.</p>
+    <h2 class="detail-h1">4. Khối lượng kiến thức toàn khóa học:</h2>
+    <p class="detail-p">Khối lượng kiến thức toàn khóa học: 2460 giờ / 101 tín chỉ.</p>
+    <p class="detail-p">Số lượng môn học, mô đun: 31.</p>
+    <p class="detail-p">Khối lượng các môn học chung: 435 giờ / 19 tín chỉ.</p>
+    <p class="detail-p">Khối lượng các môn học, mô đun chuyên môn: 2025 giờ / 82 tín chỉ.</p>
+    <p class="detail-p">Khối lượng lý thuyết: 690 giờ; Thực hành, thực tập, thí nghiệm: 1770 giờ.</p>
+  </div>
+
+  <a href="https://camauvkc.edu.vn/dangkyxettuyen" target="_blank" class="fab-register" rel="noopener">
+    <span class="fab-icon">✍️</span>
+    <span>Đăng ký trực tuyến</span>
+  </a>
+
+  <footer class="detail-footer">
+    <p>© 2026 Trường Cao đẳng nghề Việt Nam – Hàn Quốc Cà Mau</p>
+  </footer>
+</body>
+
+</html>
