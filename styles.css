@@ -266,6 +266,8 @@ h1, h2, h3, h4 {
   padding: 28px;
   box-shadow: var(--shadow-card);
   transition: var(--transition);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .info-card:hover {
@@ -856,15 +858,15 @@ h1, h2, h3, h4 {
 
   .info-grid,
   .careers-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .timeline-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .xettuyen-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .fab-register {
@@ -899,11 +901,11 @@ h1, h2, h3, h4 {
 
 @media (max-width: 480px) {
   .level-info-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .careers-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .fab-register span:not(.fab-icon) {
